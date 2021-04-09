@@ -1,0 +1,18 @@
+<h2>While Dynamically Loaded</h2>
+<h3>Tab with text box</h3>
+<ejs-tab id="element">
+  <e-tabitems>
+    <e-tabitem>
+      <ng-template #headerText>
+        <div>
+          Tab Item 1
+        </div>
+      </ng-template>
+      <ng-template #content>
+        <button>Testing</button>
+        <p>Text Box Not Rendering</p>
+        <ejs-textbox placeholder="First Name" showClearButton='true' floatLabelType="Never"></ejs-textbox>
+      </ng-template>
+    </e-tabitem>
+  </e-tabitems>
+</ejs-tab>
